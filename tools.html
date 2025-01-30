@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Digian</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Digian
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="quote_btn-container">
+              <a href="" class="quote_btn">
+                Get A Quote
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- service section -->
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Our Services
+        </h2>
+        <p>
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      
+<html lang="en">
+<head>
+  <meta charset="UTF-8"></meta>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
+  <title>All Tools</title>
+  <style>
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tool-card {
+  /*background: linear-gradient(145deg, #ffffff, #e6e6e6);*/
+  border-radius: 15px;
+  padding: 20px;
+  /*box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15), -5px -5px 15px rgba(255, 255, 255, 0.9);*/
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  text-align: center; /* Center-align content */
+}
+.tool-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25), -10px -10px 20px rgba(255, 255, 255, 0.8);
+}
+.tool-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.05), transparent);
+  z-index: 0;
+  transform: rotate(30deg);
+}
+
+.tool-card img {
+  display: block; /* Ensures the image is treated as a block-level element */
+  margin: 0 auto; /* Centers the image horizontally */
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 15px;
+ 
+  background-color: white;
+}
+.tool-card h2 {
+  font-size: 1.4rem;
+  margin: 10px 0;
+  color: #333;
+  position: relative;
+  text-align: center; /* Ensures the title is centered */
+}
+
+.tool-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0 20px;
+  line-height: 1.6;
+  z-index: 1;
+  position: relative;
+}
+
+.tool-card a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(45deg, #4CAF50, #45a049);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.tool-card a:hover {
+  background: linear-gradient(45deg, #45a049, #4CAF50);
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+}
+
+
+  </style>
+
+<body>
+  <div class="container1">
+    <div class="tool-grid" id="toolGrid">
+      <!-- Tool Cards will be inserted here dynamically -->
+    </div>
+  </div>
+
+  
+
+  <script>
+   const tools = [
+  {
+    name: "Financial Planning Tool",
+    description: "You can chart your financial trajectory. Do this by entering critical data. Next pocket personalized investment ideas. They will be proposed to you.",
+    image: "https://media.istockphoto.com/id/1290272178/photo/business-analytics-intelligence-bi-concept-kpi-financial-charts.webp?a=1&b=1&s=612x612&w=0&k=20&c=DKcMW1XHocC_gN1UExj6o4J_7kz-uyEcGSQImrT490s=", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/financial-planning-tool.html" // Replace with your tool link
+  },
+  {
+    name: "Resume Generator",
+    description: "Produce professional resume. Do this with ease. Tailor templates to sync with your career endpoints.",
+    image: "https://media.istockphoto.com/id/2192600741/photo/career-text-on-wooden-cubes-on-gold-coins.webp?a=1&b=1&s=612x612&w=0&k=20&c=TImIBbbktKHABELAOlVecJGeHALvsgk9PYx2oA4Uvns=", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/resume-creator.html" // Replace with your tool link
+  },
+  {
+    name: "Employee Data Form",
+    description: "Simplify the process of gathering employee data. Do this through a simplistic form. Great for catering to HR requirements.",
+    image: "https://media.istockphoto.com/id/1408596915/photo/employees-must-complete-the-online-survey-form-answer-the-test-questions-marked-checklist-on.webp?a=1&b=1&s=612x612&w=0&k=20&c=yj3zV8l6uz7iNZZ2bX6uMwoICgtilvxDXCC-ASfdvhU=", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/employee-data-form.html" // Replace with your tool link
+  },
+  {
+    name: "Find Salary",
+    description: "Discover salary details. Use our tool to find it. The search is based on employee role. Or use their designation. Ease is guaranteed.",
+    image: "https://media.istockphoto.com/id/1209141251/photo/cash-bills-as-symbol-of-financial-stability-moneys-and-chronometer-isolated-on-red-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=wBNl1cCQYjjFlp_xmBYfqc1jHivTpkrL4OMi9nXMZmk=", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/find-employees-salary.html" // Replace with your tool link
+  },
+  {
+    name: "Recommended Salary",
+    description: "Receive salary range suggestions. Suggestions rooted in market patterns and job positions.",
+    image: "https://www.istockphoto.com/photo/financial-advisor-recommending-stock-market-bonds-to-clients-gm2181017079-600085371", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/recommend-salary.html" // Replace with your tool link
+  },
+  {
+    name: "Salary Calculator",
+    description: "Compute gross, net salaries easily. Don't forget to add taxes. Net salaries include benefits. Also they consider deductions.",
+    image: "https://media.istockphoto.com/id/1366925319/photo/asian-man-hold-electricity-bill-for-paying-by-mobile-phone-through-qr-code.webp?a=1&b=1&s=612x612&w=0&k=20&c=cE_wVqOazyiyq48NoTXoN-jG4SpxlEh7ALZ84WbrUaE=", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/calculator.html" // Replace with your tool link
+  },
+  {
+    name: "Email Template Generator",
+    description: "It's simple. Create templates. Customize them. The templates are for email. They're for professional interaction. Tailor them to diverse needs.",
+    image: "https://media.istockphoto.com/id/1391784142/photo/code-symbol-on-computer-concept-of-programming-3d-render.jpg?s=612x612&w=0&k=20&c=EHYdmwnRtDruno1JbQkYTajmUWeIHFTtnttIWL-KoN0=", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/email-template-generator.html" // Replace with your tool link
+  },
+  {
+    name: "To Do List",
+    description: "Efficiently structure tasks. Do it with a simple but robust list tool.",
+    image: "https://media.istockphoto.com/id/173240105/photo/checklist-on-clipboard-with-clipping-path.jpg?s=612x612&w=0&k=20&c=KXS5M8EWUbJYPO5KBu6we7qMIWwoUTX8mi1Ak4YIC84=", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/to-do-list.html" // Replace with your tool link
+  },
+  {
+    name: "Career Websites",
+    description: "Investigate highest-ranking career sites. They provide job chances networking opportunities and skill enhancement.",
+    image: "https://media.istockphoto.com/id/1515913422/photo/a-data-analyst-using-technology-ai-for-working-tool-for-data-analysis-chatbot-chat-with-ai.jpg?s=612x612&w=0&k=20&c=oOKLdZJpcsrUbNrnGVf8TwoIdYud4mWoBkx1A3PdXI0=", // Replace with your image URL
+    link: "https://kt-sessions.blogspot.com/p/career-websites.html" // Replace with your tool link
+  }
+];
+
+
+    // Function to dynamically create tool cards
+    function loadTools() {
+      const toolGrid = document.getElementById("toolGrid");
+      tools.forEach((tool) => {
+        const toolCard = document.createElement("div");
+        toolCard.classList.add("tool-card");
+
+        toolCard.innerHTML = `
+          <img src="${tool.image}" alt="${tool.name} Logo">
+          <h2>${tool.name}</h2>
+          <p>${tool.description}</p>
+          <a href="${tool.link}" target="_blank">Use ${tool.name}</a>
+        `;
+        toolGrid.appendChild(toolCard);
+      });
+    }
+
+    // Load tools on page load
+    window.onload = loadTools;
+  </script>
+</body>
+</html>
+
+  <!-- end service section -->
+
+
+  <div class="footer_container">
+    <!-- info section -->
+
+    <section class="info_section ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 ">
+            <div class="info_detail">
+              <h4>
+                Digian
+              </h4>
+              <p>
+                Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2 mx-auto">
+            <div class="info_link_box">
+              <h4>
+                Links
+              </h4>
+              <div class="info_links">
+                <a class="" href="index.html">
+                  Home
+                </a>
+                <a class="" href="about.html">
+                  About
+                </a>
+                <a class="" href="service.html">
+                  Services
+                </a>
+                <a class="" href="contact.html">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ">
+            <h4>
+              Subscribe
+            </h4>
+            <form action="#">
+              <input type="text" placeholder="Enter email" />
+              <button type="submit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-0 ml-auto">
+            <div class="info_contact">
+              <h4>
+                Address
+              </h4>
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                    Location
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    Call +01 1234567890
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span>
+                    demo@gmail.com
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="info_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end info section -->
+
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Free Html Templates</a>
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+  </div>
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
