@@ -105,7 +105,7 @@
 @media (max-width: 376px) {}
 
 @media (min-width: 1200px) {
-  .container {
+  .container1 {
     max-width: 1170px;
   }
 }
